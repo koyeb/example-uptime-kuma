@@ -21,7 +21,7 @@ Koyeb is a developer-friendly serverless platform to deploy apps globally. No-op
 
 This repository contains is designed to show how Uptime Kuma can be deployed to Koyeb.  The image this repository builds bundles [Uptime Kuma](https://github.com/louislam/uptime-kuma), a service monitoring tool, with  [Litestream](https://litestream.io/), a tool for replicating SQLite databases to object storage buckets continuously.
 
-You can follow the [associated tutorial]() to learn more about the two components work and how to configure them effectively.
+You can follow the [associated tutorial](https://www.koyeb.com/tutorials/monitor-your-websites-and-apps-using-uptime-kuma) to learn more about the two components work and how to configure them effectively.
 
 ## Getting Started
 
