@@ -32,17 +32,8 @@ Follow the steps below to deploy and run the Uptime Kuma to your Koyeb account.
 To use this repository, you need:
 
 * A Koyeb account: to build the Docker image and run the Dockerized applications.  If you don't already have an account, you can [sign-up for free](https://app.koyeb.com/auth/signup).
-* A [Backblaze account](https://secure.backblaze.com/user_signin.htm): Used to store Uptime Kuma's SQLite database files.  From your Backblaze account, you need to [create a bucket](https://www.backblaze.com/docs/cloud-storage-developer-quick-start-guide#create-a-bucket) and an [application key](https://www.backblaze.com/docs/cloud-storage-developer-quick-start-guide#create-an-application-key).  You'll need the following details from your account to configure Litestream:
-    * Bucket name: The name you gave your bucket.
-    * Endpoint: The Backblaze B2 endpoint for your account.
-    * Region: The second component of the endpoint URL (for example, `eu-central-003` for an endpoint at `s3.eu-central-003.backblazeb2.com`).
-    * Key ID: The key ID for the API key you created.
-    * Application key: The secret API key you created.
-* (Optional) a [Mailgun account](https://www.mailgun.com/): to send notification emails when monitoring detects a problem with a service.  From your Mailgun account, you need to configure an [authorized recipient email address](https://help.mailgun.com/hc/en-us/articles/217531258-Authorized-Recipients) and then retrieve the following details associated with your account:
-    * SMTP hostname: The SMTP server for Mailgun.
-    * Port: The recommended port for authenticating with SMTP.
-    * Username: The `postmaster@` email address associated with your Mailgun domain.
-    * Password: The SMTP password configured for the account.
+* A [Backblaze account](https://secure.backblaze.com/user_signin.htm): Used to store Uptime Kuma's SQLite database files.  From your Backblaze account, you need to [create a bucket](https://www.backblaze.com/docs/cloud-storage-developer-quick-start-guide#create-a-bucket) and an [application key](https://www.backblaze.com/docs/cloud-storage-developer-quick-start-guide#create-an-application-key).
+* (Optional) a [Mailgun account](https://www.mailgun.com/): to send notification emails when monitoring detects a problem with a service.  From your Mailgun account, you need to configure an [authorized recipient email address](https://help.mailgun.com/hc/en-us/articles/217531258-Authorized-Recipients).
 
 ### Deploy using the Koyeb button
 
