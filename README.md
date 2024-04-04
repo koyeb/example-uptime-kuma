@@ -58,16 +58,13 @@ If you want to customize and enhance this application, you need to fork this rep
 
 If you used the **Deploy to Koyeb** button, you can simply link your service to your forked repository to be able to push changes.  Alternatively, you can manually create the application as described below.
 
-On the [Koyeb Control Panel](https://app.koyeb.com/), click the **Create App** button to go to the App creation page.
+On the [Koyeb Control Panel](https://app.koyeb.com/), on the **Overview** tab, click the **Create Web Service** button to begin.
 
-1. Click **Create App** in the Koyeb control panel.
-2. Select **GitHub** as the deployment option.
-3. Choose the GitHub **repository** and **branch** containing your application code.
-4. Select **Dockerfile** as the builder for the project.
-5. Name your service, for example `uptime-kuma-litestream`.
-6. Name the App, for example `uptime-kuma-litestream`.
-7. Click **Advanced** to display additional settings and click the **Add Variable** button to fill in the environment variables outlined above.
-7. Click the **Deploy** button.
+1. Select **GitHub** as the deployment method.
+2. Choose the repository containing your application code.
+3. In the **Builder** section, select **Dockerfile**.
+4. In the **Environment variables** section, and click the **Add aariable** button to fill in the environment variables outlined above.
+5. Choose a name for your App and Service, for example `uptime-kuma-litestream`, and click **Deploy**.
 
 A container image for Uptime Kuma will be built and a container will be deployed to Koyeb.  You can follow the build process as the repository is cloned, built, and deployed.  Once the deployment is complete, it will be accessible using the Koyeb subdomain for your service.
 
